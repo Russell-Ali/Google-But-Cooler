@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #d64045;
+}
+.search-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #d1d646;
+  border-radius: 40px;
+  height: 40px;
+  padding: 10px;
+}
+.search-box:hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+.headOne:hover {
+  color: white;
+  -webkit-animation: rainbow 0.4s infinite;
+  -ms-animation: rainbow 0.4s infinite;
+  -o-animation: rainbow 0.4s infinite;
+  animation: rainbow 0.4s infinite;
+}
+@-webkit-keyframes rainbow {
+  0% {
+    background: #ff0000;
+  }
+  10% {
+    background: #ff8000;
+  }
+  20% {
+    background: #ffff00;
+  }
+  30% {
+    background: #80ff00;
+  }
+  40% {
+    background: #00ff00;
+  }
+  50% {
+    background: #00ff80;
+  }
+  60% {
+    background: #00ffff;
+  }
+  70% {
+    background: #0080ff;
+  }
+  80% {
+    background: #0000ff;
+  }
+  90% {
+    background: #8000ff;
+  }
+  100% {
+    background: #ff0080;
+  }
+}
+@-ms-keyframes rainbow {
+  0% {
+    background: #ff0000;
+  }
+  10% {
+    background: #ff8000;
+  }
+  20% {
+    background: #ffff00;
+  }
+  30% {
+    background: #80ff00;
+  }
+  40% {
+    background: #00ff00;
+  }
+  50% {
+    background: #00ff80;
+  }
+  60% {
+    background: #00ffff;
+  }
+  70% {
+    background: #0080ff;
+  }
+  80% {
+    background: #0000ff;
+  }
+  90% {
+    background: #8000ff;
+  }
+  100% {
+    background: #ff0080;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background: #ff0000;
+  }
+  10% {
+    background: #ff8000;
+  }
+  20% {
+    background: #ffff00;
+  }
+  30% {
+    background: #80ff00;
+  }
+  40% {
+    background: #00ff00;
+  }
+  50% {
+    background: #00ff80;
+  }
+  60% {
+    background: #00ffff;
+  }
+  70% {
+    background: #0080ff;
+  }
+  80% {
+    background: #0000ff;
+  }
+  90% {
+    background: #8000ff;
+  }
+  100% {
+    background: #ff0080;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background: #ff0000;
+  }
+  10% {
+    background: #ff8000;
+  }
+  20% {
+    background: #ffff00;
+  }
+  30% {
+    background: #80ff00;
+  }
+  40% {
+    background: #00ff00;
+  }
+  50% {
+    background: #00ff80;
+  }
+  60% {
+    background: #00ffff;
+  }
+  70% {
+    background: #0080ff;
+  }
+  80% {
+    background: #0000ff;
+  }
+  90% {
+    background: #8000ff;
+  }
+  100% {
+    background: #ff0080;
+  }
+}
+.search-txt:not(:placeholder-shown) {
+  width: 240px;
+}
+.search-box:hover > .search-btn {
+  background: #edf2ef;
+}
+.search-btn {
+  color: #d64045;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #d1d646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+.headOne {
+  background: #d1d646;
+  color: black;
+  width: 240px;
+  border-radius: 40px;
+  font-size: 1.2em;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  top: 35%;
+  left: calc(50% - 120px);
+  transition: 0.4s;
+}
